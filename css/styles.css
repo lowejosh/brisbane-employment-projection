@@ -13,19 +13,22 @@ body {
 
 .header, .footer {
     flex: none;
+    text-align: center;
+    height: 50px; 
 }
 
 .header {
-    background-color: green;
-    height: 60px; 
+    background-color: #7FCC7F;
+    border-bottom: solid #325132 1px;
 }
 
 .main {
-    background-color: grey;
+    color: #325132;
+    background-color: #E5F4E5;
     flex: auto;
 }
 
 .footer {
-   background-color: green;
-    height: 60px; 
+    border-top: solid #325132 1px;
+    background-color: #7FCC7F;
 }
