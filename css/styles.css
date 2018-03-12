@@ -23,8 +23,7 @@ body {
 .main {
     background-color: #FCFCFC;
     flex: auto;
-    padding-left: 20%;
-    padding-top: 8%;
+    padding-top: 5%;
 }
 
 
@@ -35,10 +34,27 @@ body {
 
 .sub-title {
     font-size: 20px;
+    display: block;
+    text-align: center;
 }
 
 .choice-button {
-    background-color: red; /* PH */
-    width: 200px;
+    margin-top: 2em;
+    background-color: yellow; /* PH */
+    text-align: center;
     height: 100px;
+    display: table;
+    width: 100%;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.choice-text {
+    display: table-cell; 
+    vertical-align: middle;
+}
+
+.center-wrap {
+    margin: auto; 
+    width: 30%;
 }
