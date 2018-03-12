@@ -16,8 +16,13 @@ body {
     text-align: center;
     height: 50px; 
     line-height: 50px;
-    background-color: #CBEACB;
+    background-color: #efefef;
     text-align: center;
+    border-top: solid 1px #325132;
+}
+
+.header {
+    border-bottom: solid 1px #325132;
 }
 
 .main {
@@ -47,11 +52,13 @@ body {
     width: 100%;
     padding-left: 5px;
     padding-right: 5px;
+    background-color: #325132;
 }
 
 .choice-text {
     display: table-cell; 
     vertical-align: middle;
+    color: white;
 }
 
 .center-wrap {
