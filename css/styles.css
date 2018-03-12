@@ -16,18 +16,20 @@ body {
     text-align: center;
     height: 50px; 
     line-height: 50px;
-    background-color: #d6d9d2;
-    border-top: solid 1px #325132;
 }
 
 .header {
-    border-bottom: solid 1px #325132;
+    border-bottom: dashed 1px #325132;
+}
+
+.footer {
+    border-top: dashed 1px #325132;
 }
 
 .main {
     background-color: #FCFCFC;
     flex: auto;
-    padding-top: 3%;
+    padding-top: 2em;
 }
 
 
