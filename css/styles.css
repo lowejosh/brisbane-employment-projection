@@ -16,8 +16,7 @@ body {
     text-align: center;
     height: 50px; 
     line-height: 50px;
-    background-color: #efefef;
-    text-align: center;
+    background-color: #d6d9d2;
     border-top: solid 1px #325132;
 }
 
@@ -34,7 +33,6 @@ body {
 
 .header-title {
     font-size: 24px;
-    font-family: 'Fjalla One', sans-serif;
 }
 
 .sub-title {
