@@ -9,7 +9,7 @@
             <span class="header-title">Brisbane Employment Projection</span>
         </div>
         <div class="main">
-            <span class="sub-title">Would you like to...</span>
+            <span class="sub-title">Would you like to</span>
             <div class="center-wrap">
                 <div class="choice-button">
                     <span class="choice-text">View occupation employment projection</span>

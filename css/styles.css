@@ -27,7 +27,7 @@ body {
 .main {
     background-color: #FCFCFC;
     flex: auto;
-    padding-top: 5%;
+    padding-top: 3%;
 }
 
 
@@ -48,9 +48,20 @@ body {
     height: 100px;
     display: table;
     width: 100%;
-    padding-left: 5px;
-    padding-right: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
     background-color: #325132;
+}
+
+.choice-button:hover {
+    background-color: #1b2211;
+    transition: 0.2s;
+    cursor: pointer;
+    user-select: none;
+}
+
+.choice-button:active {
+    background-color: #0a0d06;
 }
 
 .choice-text {
@@ -61,5 +72,6 @@ body {
 
 .center-wrap {
     margin: auto; 
+    padding-right: 30px;
     width: 30%;
 }
