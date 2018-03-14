@@ -8,13 +8,16 @@
         <div class="header">
             <span class="header-title">Brisbane Employment Projection</span>
         </div>
+        <div class="navigation"> 
+        
+        </div>
         <div class="main" id="main">
         <?php 
             if(!isset($_GET['action'])) {
                 include 'includes/data-choice.php';
             }
         ?>
-        <a class="return-button" href="index.php">Return</a>
+<!--        <a class="return-button" href="index.php">Return</a> --> 
         </div>
         <div class="footer">
             Joshua Lowe | Github
