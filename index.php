@@ -11,15 +11,13 @@
         <div class="main" id="main">
             <span class="sub-title">Would you like to</span>
             <div class="center-wrap">
-                <form>
-                    <button type="submit" class="choice-button" onClick="choiceClicked(0)">
-                        <span class="choice-text">View occupation employment projection</span>
+                <form method="get">
+                    <button type="submit" name="action" class="choice-button" value="Occupation">
+                        View occupation employment projection
                     </button>
-                    <button type="submit" class="choice-button" id="industryButton" onclick="choiceClicked(1)"> 
-                        <span class="choice-text">View industry employment projection</span>
+                    <button type="submit" name="action" class="choice-button" value="Industry"> 
+                        View industry employment projection
                     </button>
-                    <!-- The hidden input is given its value via javascript when a choice div is clicked, then the form is submitted -->
-                    <div id="hiddenInput"></div>
                 </form>
             </div>
         </div>
