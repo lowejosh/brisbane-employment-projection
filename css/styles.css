@@ -45,14 +45,18 @@ body {
 
 .choice-button {
     margin-top: 2em;
-    background-color: yellow; /* PH */
     text-align: center;
+    font-size: 16px;
     height: 100px;
-    display: table;
     width: 100%;
     padding-left: 15px;
     padding-right: 15px;
     background-color: #325132;
+    color: white;
+}
+
+button {
+    border: none;
 }
 
 .choice-button:hover {
@@ -66,14 +70,7 @@ body {
     background-color: #0a0d06;
 }
 
-.choice-text {
-    display: table-cell; 
-    vertical-align: middle;
-    color: white;
-}
-
 .center-wrap {
     margin: auto; 
-    padding-right: 30px;
-    width: 30%;
+    width: 40%;
 }
