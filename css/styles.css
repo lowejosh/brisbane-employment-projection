@@ -80,6 +80,15 @@ button {
     background-color: #0a0d06;
 }
 
+.link {
+    color: #325132;
+    text-decoration: none;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
 /* PLACEHOLDER */
 .return-button {
     text-decoration: none;
