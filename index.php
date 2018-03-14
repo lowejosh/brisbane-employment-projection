@@ -15,14 +15,14 @@
             <span href="" id="specific-selection">Occupation/Industry</span>        
         </div>
         <div class="main" id="main">
-        <?php 
-            if(!isset($_GET['action'])) {
-                include 'includes/data-choice.php';
-                echo '<script type="text/javascript">setNavbar(0);</script>';
-            } else {
-                echo '<script type="text/javascript">setNavbar(1);</script>';
-            }
-        ?>
+            <?php 
+                if(!isset($_GET['action'])) {
+                    include 'includes/data-choice.php';
+                    echo '<script type="text/javascript">setNavbar(0);</script>';
+                } else {
+                    echo '<script type="text/javascript">setNavbar(1);</script>';
+                }
+            ?>
         </div>
         <div class="footer">
             Joshua Lowe | Github
