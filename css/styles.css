@@ -17,17 +17,20 @@ button {
 
 .header, .footer {
     flex: none;
-    text-align: center;
-    height: 50px; 
-    line-height: 50px;
 }
 
 .header {
     border-bottom: dashed 1px #325132;
+    height: 50px; 
+    line-height: 50px;
+    padding-left: 25px;
 }
 
 .footer {
     border-top: dashed 1px #325132;
+    height: 2em;
+    text-align: center;
+    line-height: 2em;
 }
 
 .main {
@@ -44,6 +47,7 @@ button {
     height: 2em;
     line-height: 2em; 
     border-bottom: dashed 1px #325132;
+    padding-left: 25px;
 }
 
 .sub-title {
@@ -57,6 +61,7 @@ button {
     text-align: center;
     font-size: 16px;
     height: 100px;
+    width: 100%;
     padding-left: 15px;
     padding-right: 15px;
     background-color: #325132;
