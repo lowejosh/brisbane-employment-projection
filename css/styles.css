@@ -1,12 +1,10 @@
 html, body {
     padding: 0;
     margin: 0;
-    min-height: 100%;
+    padding: 0;
 }
 
 body {
-    display: flex;
-    flex-direction: column;
     color: #393D3F;
     font-family: 'Open Sans', sans-serif;
 }
@@ -16,15 +14,14 @@ button {
 }
 
 .header, .footer {
-    flex: none;
     background-color: #546A7B;
     color: #FDFDFF;
+    width: 100%;
 }
 
 .header {
     height: 50px; 
     line-height: 50px;
-    padding-left: 25px;
 }
 
 .footer {
@@ -35,12 +32,11 @@ button {
 
 .main {
     background-color: #FCFCFC;
-    flex: auto;
-    position: relative;
 }
 
 .header-title {
-    font-size: 24px;
+    font-size: 26px;
+    font-weight: bold;
 }
 
 .navigation {
@@ -51,34 +47,14 @@ button {
     color: #FDFDFF;
 }
 
-.sub-title {
-    margin-top: 25px;
-    font-size: 20px;
-    display: block;
-    text-align: center;
-}
-
 .choice-button {
-    margin-top: 2em;
     text-align: center;
     font-size: 16px;
-    height: 100px;
-    width: 100%;
-    padding-left: 15px;
-    padding-right: 15px;
+    height: 80%;
+    width: 50%;
+    display: inline-block;
     /* background-color is designated in html */
     color: #393D3F;
-}
-
-.choice-button:hover {
-    background-color: #1b2211;
-    transition: 0.2s;
-    cursor: pointer;
-    user-select: none;
-}
-
-.choice-button:active {
-    background-color: #0a0d06;
 }
 
 .link {
@@ -88,10 +64,5 @@ button {
 
 .link:hover {
     text-decoration: underline;
-}
-
-.center-wrap {
-    margin: auto; 
-    width: 40%;
 }
 
