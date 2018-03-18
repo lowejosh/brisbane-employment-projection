@@ -1,4 +1,4 @@
-html, body {
+html, body, form {
     padding: 0;
     margin: 0;
 }
@@ -46,13 +46,15 @@ button {
 
 .choice-button {
     font-size: 16px;
-    height: 80%;
     width: 50%;
     display: inline-block;
     position: relative;
     text-align: center;
     /* background-color is designated in html */
     color: #393D3F;
+	height: -webkit-calc(100% - 4em - 50px);
+    height:    -moz-calc(100% - 4em - 50px);
+    height:         calc(100% - 4em - 50px);    
 }
 
 .button-title {
@@ -62,6 +64,15 @@ button {
     top: 25px;
     right: 0;
     left: 0;
+}
+
+.button-icon {
+    margin: auto;
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
 }
 
 .link {

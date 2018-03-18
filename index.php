@@ -7,17 +7,15 @@
 
     <body>
         <?php include 'includes/header.php';?>
-        <div class="main" id="main">
-            <?php 
-                if(!isset($_GET['action'])) {
-                    include 'includes/data-choice.php';
-                    echo '<script type="text/javascript">setNavbar(0);</script>';
-                } else {
-                    include 'includes/location-choice.php';
-                    echo '<script type="text/javascript">setNavbar(1);</script>';
-                }
-            ?>
-        </div>
-        <?php include 'includes/footer.php';?>
+		<?php 
+			if(!isset($_GET['action'])) {
+				include 'includes/data-choice.php';
+				echo '<script type="text/javascript">setNavbar(0);</script>';
+			} else {
+				include 'includes/location-choice.php';
+				echo '<script type="text/javascript">setNavbar(1);</script>';
+			}
+			include 'includes/footer.php';
+		?>
     </body>
 </html>
