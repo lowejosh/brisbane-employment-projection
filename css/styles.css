@@ -1,7 +1,6 @@
 html, body {
     padding: 0;
     margin: 0;
-    padding: 0;
 }
 
 body {
@@ -14,7 +13,6 @@ button {
 }
 
 .header, .footer {
-    background-color: #546A7B;
     color: #FDFDFF;
     width: 100%;
 }
@@ -22,21 +20,20 @@ button {
 .header {
     height: 50px; 
     line-height: 50px;
+    background-color: #546A7B;
 }
 
 .footer {
     height: 2em;
     text-align: center;
     line-height: 2em;
-}
-
-.main {
-    background-color: #FCFCFC;
+    background-color: #393D3F;
 }
 
 .header-title {
     font-size: 26px;
     font-weight: bold;
+    margin-left: 25px;
 }
 
 .navigation {
@@ -48,13 +45,23 @@ button {
 }
 
 .choice-button {
-    text-align: center;
     font-size: 16px;
     height: 80%;
     width: 50%;
     display: inline-block;
+    position: relative;
+    text-align: center;
     /* background-color is designated in html */
     color: #393D3F;
+}
+
+.button-title {
+    font-weight: bold;
+    font-size: 22px;
+    position: absolute;
+    top: 25px;
+    right: 0;
+    left: 0;
 }
 
 .link {
