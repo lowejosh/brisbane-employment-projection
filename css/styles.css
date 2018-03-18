@@ -61,9 +61,11 @@ button {
     font-weight: bold;
     font-size: 22px;
     position: absolute;
-    top: 25px;
-    right: 0;
+    top: 50px;
+    margin-left: 20%;
+    margin-right: 20%;
     left: 0;
+    right: 0;
 }
 
 .button-icon {
