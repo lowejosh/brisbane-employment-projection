@@ -1,11 +1,11 @@
 <form method="get">
-    <button type="submit" style="background-color:#62929F;" name="action" class="choice-button" value="Occupation">
+    <div style="background-color:#62929F;" class="choice-button">
         <span class="button-title">View Occupation Employment Projection</span>
         <img src="img/occupation-icon.png" class="button-icon"></img>
-        <div class="button-choose">Choose</div>
-    </button><button type="submit" style="background-color:#F4EEA9;" name="action" class="choice-button" value="Industry"> 
+        <button type="submit" name="action" class="occupation-choose" value="Occupation">Choose</button>
+    </div><div style="background-color:#F4EEA9;" class="choice-button"> 
         <span class="button-title">View Industry Employment Projection</span>
         <img src="img/industry-icon.png" class="button-icon"></img>
-        <div class="button-choose">Choose</div>
-    </button>
+        <button type="submit" name="action" value="Industry" class="industry-choose">Choose</button>
+    </div>
 </form>

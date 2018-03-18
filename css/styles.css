@@ -77,19 +77,36 @@ button {
     bottom: 0;
 }
 
-.button-choose {
+.choice-button button {
     position: absolute;
     bottom: 50px;
     left: 0;
     right: 0;
     border: 3px solid #393D3F;
     font-weight: bold;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    cursor: pointer;
     width: 200px;
     margin: auto;
-    border-radius: 30px;
-    
+    border-radius: 20px;
+    color: #393D3F;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+}
+
+.choice-button button:hover {
+    background-color: #393D3F;
+    color: #FDFDFF;
+    transition: 0.3s;
+}
+
+.occupation-choose { 
+    background-color: #62929E;
+}
+
+.industry-choose {
+    background-color: #F4EEA9;
 }
 
 .link {
